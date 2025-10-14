@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robux Code Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #code {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        input {
+            margin-top: 20px;
+            padding: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Robux Code Generator</h1>
+    <input type="number" id="length" placeholder="Enter code length" min="12" max="20" value="12">
+    <button onclick="generateCode()">Generate Code</button>
+    <div id="code"></div>
+
+    <script>
+        function generateCode() {
+            const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+            const length = document.getElementById('length').value;
+            let code = 'RB';
+            for (let i = 0; i < length - 2; i++) {
+                code += characters.charAt(Math.floor(Math.random() * characters.length));
+            }
+            document.getElementById('code').innerText = code;
+        }
+    </script>
+</body>
+</html>
