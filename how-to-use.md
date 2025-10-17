@@ -1,5 +1,6 @@
 # Ever Wondered How To Use
+# Well Here's How! 
 
-# it's actually easy! 
+# Just Type This Or Copy.
   ```html
   html:paste-code-here!
