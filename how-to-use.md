@@ -1,4 +1,4 @@
-# Ever Wondered How To USe
+# Ever Wondered How To Use
 
 # it's actually easy! 
   ```html
