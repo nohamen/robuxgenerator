@@ -2,7 +2,7 @@
 # Well Here's How! 
 
 ### Just Type This Or Copy.
-`html
+```html
 html:paste-code-here
 
 
