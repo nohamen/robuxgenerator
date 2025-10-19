@@ -3,6 +3,6 @@
 
 ### Just Type This Or Copy.
 
-`html:paste-code-here`
+`html:paste-code-here!`
 
 **After Html: Paste The Code Into The Developer Console Or On The Browser**
